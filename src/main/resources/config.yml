@@ -1,0 +1,9 @@
+log-level: INFO
+chest-refresh-interval: 300
+broadcast-countdown: true
+countdown-message: "&e[TarkovBooty] 战利品箱将在 &c{seconds} &e秒后刷新！"
+enable-opening-delay: true
+opening-delay-seconds: 3
+opening-start-message: "&e正在尝试开启战利品箱... 请保持不动！"
+opening-cancel-move-message: "&c移动取消了箱子开启！"
+opening-already-opening-message: "&c你已经在尝试开启一个箱子了！"

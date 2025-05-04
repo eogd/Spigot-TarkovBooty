@@ -1,0 +1,42 @@
+name: TarkovBooty
+version: '1.1.4'
+main: com.eogd.tarkovbooty.TarkovBooty
+api-version: '1.19'
+author: eogd
+description: Adds special loot chests with configurable items and refresh mechanics.
+
+commands:
+  tgui:
+    description: Opens the loot template GUI.
+    usage: /tgui
+    permission: tarkovbooty.gui
+    permission-message: You do not have permission to use this command.
+  tplace:
+    description: Marks the targeted chest as a special loot chest.
+    usage: /tplace
+    permission: tarkovbooty.place
+    permission-message: You do not have permission to use this command.
+  treload:
+    description: Reloads the TarkovBooty plugin configuration.
+    usage: /treload
+    permission: tarkovbooty.reload
+    permission-message: You do not have permission to use this command.
+  tinfo:
+    description: Displays information about the TarkovBooty plugin.
+    usage: /tinfo
+    permission: tarkovbooty.info
+    permission-message: You do not have permission to view plugin info.
+
+permissions:
+  tarkovbooty.gui:
+    description: Allows opening the loot template GUI.
+    default: op
+  tarkovbooty.place:
+    description: Allows marking chests as special loot chests.
+    default: op
+  tarkovbooty.reload:
+    description: Allows reloading the plugin configuration.
+    default: op
+  tarkovbooty.info:
+    description: Allows viewing plugin information.
+    default: true
